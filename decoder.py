@@ -7,3 +7,4 @@ for i in range(0, len(flag), 1):
     b = (ord(flag[i]) - ((ord(flag[i]) >> 8) << 8))    
     result += chr(b)
     print(result)
+    print('-----')
